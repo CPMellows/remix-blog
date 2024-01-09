@@ -28,6 +28,7 @@ export async function action({ request, params }: ActionArgs) {
   invariant(params.noteId, "noteId not found");
 
   console.log(request);
+  return null;
 
   //await deleteNote({ userId, id: params.noteId });
 }

@@ -24,4 +24,5 @@ export default defineConfig({
       return { ...config, ...configOverrides };
     },
   },
+  projectId: "patzqw"
 });
